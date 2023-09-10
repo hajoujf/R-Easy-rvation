@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+        margin-bottom: 5px;
+        display: inline-block;
+        height: 45px;
+        width: 90%;
+        outline: none;
+        margin-left: 18px;
+        border-radius: 1px;
+        border: 0px;
+        border-bottom: 2px solid #966F33;
+        padding-left: 8px;
+        font-size: 16px;
+    }
+    input[type=text]{
+        margin-top: 20px;
+    }
+    input[type=password]{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    input[type=text]:focus, input[type=password]:focus {
+    border-left: 5px solid #966F33;
+    background-color: #ddd;
+    transition: 0.4s;
+    outline: none;
+    }
+
+    /* Overwrite default styles of hr */
+    hr {
+    border: 2px groove black ;
+    margin-bottom: 25px;
+    width: 100%;
+    }
+
+    /* Set a style for the submit/register button */
+    .registerbtn {
+        background-color: #966F33 ;
+        color: white;
+        padding: 16px 15px;
+        /*margin: 5px 0;*/
+        border: none;
+        cursor: pointer;
+        width: 44%;
+        height: 48px;
+        border-radius: 5px;
+        font-size: 15px;
+
+    }
+    .resetbtn {
+        font-size: 15px;
+        border-radius: 5px;
+        background-color: #966F33 ;
+        color: white;
+        padding: 16px 15px;
+        /*margin: 5px 0;*/
+        border: none;
+        cursor: pointer;
+        width: 44%;
+        height: 48px;
+    }
+    .buttons {
+        width: 40%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .registerbtn:hover {
+        background-color: #604114;
+        transition: 0.3s;
+    }
+    .resetbtn:hover{
+            background-color: #604114;
+            transition: 0.3s;
+        }
+    a {
+        color: #966F33 ;
+    }
+    
+
+    form {
+            margin: 10px auto;
+            max-width:550px;
+            width: 100%;
+            border: 0.5px solid #966F33;
+            box-shadow: 5px 1px #888888;
+            padding: 25px 30px;
+            border-radius: 5px; 
+        }
+    .signup {
+        background-color: lightgray;
+        text-align: center;
+    }
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+
+    /* Avatar image */
+    img.avatar {
+        width: 80px;
+        border-radius: 10%;
+    }
+   /*center headers */
+   .cntr {
+       margin-top: 30px;
+        padding-left: 40%;
+        padding-right: auto;
+        width: 100%;
+        margin-bottom: 20px;
+        height: 180px;
+        border-bottom: 2px solid black;
+    }
+    .cntr h1{
+        margin-left: -3px;
+    }

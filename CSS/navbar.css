@@ -1,0 +1,45 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.topnav {
+  position: fixed; 
+  z-index: 1; 
+  background-color:#DCDCDC;
+  overflow: hidden;
+  padding-left: 34.7%;
+  width: 100%;
+  }
+.topnav a {
+    float:left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 1px 0px solid #966F33;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    border-bottom: 1px solid #966F33;
+    color:  #966F33;
+    transition: 0.3s;
+    background-color: white;
+
+  }
+
+.topnav a.active {
+      width: 24px;
+      height: 18px;
+      margin-left: 17px;
+      margin-right: 17px;
+      color: white;
+      background-color: #966F33;
+  }
+.topnav a.active:hover {
+    border-bottom: 1.5px solid #966F33;
+    color:  #966F33;
+    transition: 0.3s;
+    background-color: white;
+  }

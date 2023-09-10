@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+/* Add padding to containers */
+.container {
+    padding: 10px;
+}
+.cntr {
+     padding-right: auto;
+     width: 100%;
+     padding: 5px ;
+     margin-bottom: 30px;
+     margin-top: -5px;
+     height: 140px;
+     border-bottom: 2px solid black;
+ }
+.column {
+    background-color:  #f1f1f1;
+    color: #966F33;
+    border: 2.5px solid  white;
+    border-top: 0px;
+    float: left;
+    width: 50%;
+    padding: 15px;
+    height: 40%;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+        margin-bottom: 5px;
+        display: inline-block;
+        height: 45px;
+        width: 44%;
+        background-color: transparent;
+        outline: none;
+        margin-left: 18px;
+        border-radius: 1px;
+        border: 0px;
+        border-bottom: 2px solid #966F33;
+        padding-left: 8px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+input[type=text]:focus, input[type=password]:focus {
+    border-left: 5px solid #966F33;
+    background-color: #ddd;
+    transition: 0.4s;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #966F33 ;
+    color: white;
+    padding: 16px 15px;
+    /*margin: 5px 0;*/
+    border: none;
+    cursor: pointer;
+    width: 44%;
+    height: 48px;
+}
+.resetbtn {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #966F33 ;
+    color: white;
+    padding: 16px 15px;
+    /*margin: 5px 0;*/
+    border: none;
+    cursor: pointer;
+    width: 44%;
+    height: 48px;
+}
+.buttons {
+    width: 40%;
+    margin-left: 32.1%;
+}
+.registerbtn:hover ,.resetbtn:hover {
+    background-color: #604114;
+        transition: 0.3s;
+}
+a {
+    color: #966F33;
+}
+
+button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+form {
+    margin: 13px auto;
+    max-width:1000px;
+    width: 100%;
+    border: 0.5px solid #966F33;
+    box-shadow: 5px 1px #888888;
+    padding: 25px ;
+    border-radius: 5px; 
+}
+.signin {
+    background-color: lightgray;
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+body {
+    background-image: url('../images/BG.jpg');
+	font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.OR{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color:#966F33;
+    text-shadow: 2px 2px gainsboro ;
+
+}
+.head{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color:#966F33;
+    width: 350px;
+    border-radius: 3px;
+    text-shadow: 2px 2px gainsboro ;
+    margin-top: 9px;
+}
+.conatiner {
+	width: 100.5%;
+	height: 500px;
+}
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.box {
+	margin: 10px;
+	width: 300px;
+	height: 490px;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.box:hover {
+	margin-bottom: -10px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.box h1 {
+	color: #fff;
+    padding: 30px;
+	margin-top: 117%;
+	text-align: center;
+	font-weight: 100;
+	font-size: 20px;
+	background: rgba(150,111,51);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.poster {
+	width: 130px;
+	height:130px;
+	margin: 120px auto;
+	position: relative;
+	border-radius: 100px;
+}
+.poster h4 {
+	top: 16px;
+	color: #fff;
+	position: relative;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 100;
+}
+.one {
+	background: url('../images/Untitled-design-33.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+    height: 550px;
+    width: 400px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+
+.two {
+	background: url('../images/thumb-guide-restaurant-website-development-1920x1080-people-eating-together.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    height: 550px;
+    width: 400px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
