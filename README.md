@@ -12,3 +12,4 @@ Meanwhile, restaurant owners have their own portal, allowing them to showcase th
 The admin, holding the reins of the entire R'Easy'rvation platform, oversees various critical functions. They manage the financial aspect, taking a modest 20% commission from each order while also curating the platform by approving and, if necessary, removing restaurants to maintain quality standards. 
 
 R'Easy'rvation is different from other websites, it creates an easier environment for food enthusiasts and restaurateurs, saves time and provides a more simple way of handling reservations for restaurant Owners!
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7101433982881296384?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
